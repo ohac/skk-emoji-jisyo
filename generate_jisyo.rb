@@ -13,7 +13,7 @@ File.open(jisyo_path, 'w') do |f|
   f << ";;\n"
   f << ";; okuri-nasi entries.\n"
 
-  Emot.list.sort.each do |name, (char, _code)|
+  list = Emot.list.map do |name, value|
     case name
     when :'8ball'
       name = :eight_ball
@@ -22,13 +22,16 @@ File.open(jisyo_path, 'w') do |f|
     when :'-1'
       name = :bad
     when :'-100'
-      name = :hundled
+      name = :hundred
     when :'-1234'
       name = :onetwo
     when /^[0-9+-]/
       p name
       raise name
     end
+    [name, value]
+  end
+  list.sort.each do |name, (char, _code)|
     f << "#{name} /#{char}/\n"
   end
 end

@@ -26,11 +26,6 @@
 ;; SOFTWARE.
 ;;
 ;; okuri-nasi entries.
-good /👍/
-bad /👎/
-hundled /💯/
-onetwo /🔢/
-eight_ball /🎱/
 a /🅰/
 ab /🆎/
 abc /🔤/
@@ -81,6 +76,7 @@ baby_bottle /🍼/
 baby_chick /🐤/
 baby_symbol /🚼/
 back /🔙/
+bad /👎/
 baggage_claim /🛄/
 balloon /🎈/
 ballot_box_with_check /☑️/
@@ -289,6 +285,7 @@ earth_asia /🌏/
 egg /🍳/
 eggplant /🍆/
 eight /8️⃣/
+eight_ball /🎱/
 eight_pointed_black_star /✴️/
 eight_spoked_asterisk /✳️/
 electric_plug /🔌/
@@ -359,6 +356,7 @@ girl /👧/
 globe_with_meridians /🌐/
 goat /🐐/
 golf /⛳️/
+good /👍/
 grapes /🍇/
 green_apple /🍏/
 green_book /📗/
@@ -414,6 +412,7 @@ hourglass /⌛️/
 hourglass_flowing_sand /⏳/
 house /🏠/
 house_with_garden /🏡/
+hundred /💯/
 hushed /😯/
 ice_cream /🍨/
 icecream /🍦/
@@ -572,6 +571,7 @@ oncoming_bus /🚍/
 oncoming_police_car /🚔/
 oncoming_taxi /🚖/
 one /1️⃣/
+onetwo /🔢/
 open_book /📖/
 open_file_folder /📂/
 open_hands /👐/
