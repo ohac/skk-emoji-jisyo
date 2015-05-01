@@ -13,7 +13,7 @@ File.open(jisyo_path, 'w') do |f|
   f << ";;\n"
   f << ";; okuri-nasi entries.\n"
 
-  Emot.list.each do |name, (char, _code)|
+  Emot.list.sort.each do |name, (char, _code)|
     f << "#{name} /#{char}/\n"
   end
 end
