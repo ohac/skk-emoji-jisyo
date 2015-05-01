@@ -14,6 +14,21 @@ File.open(jisyo_path, 'w') do |f|
   f << ";; okuri-nasi entries.\n"
 
   Emot.list.sort.each do |name, (char, _code)|
+    case name
+    when :'8ball'
+      name = :eight_ball
+    when :'+1'
+      name = :good
+    when :'-1'
+      name = :bad
+    when :'-100'
+      name = :hundled
+    when :'-1234'
+      name = :onetwo
+    when /^[0-9+-]/
+      p name
+      raise name
+    end
     f << "#{name} /#{char}/\n"
   end
 end
